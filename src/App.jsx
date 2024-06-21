@@ -1,14 +1,15 @@
-import { BrowserRouter } from 'react-router-dom';
-import Router from './router/Router';
+import UseEffectComponent from './components/useEffectComponent/UseEffectComponent';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
-	return (
-		<BrowserRouter>
-			<GlobalStyles />
-			<Router />
-		</BrowserRouter>
-	);
+	return <>
+	<GlobalStyles />
+	<UseEffectComponent/>
+	</>
+	
+	
+	;
+
 };
 
 export default App;

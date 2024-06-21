@@ -1,15 +1,13 @@
-import UseEffectComponent from './components/useEffectComponent/UseEffectComponent';
+import MainContainer from './components/mainContainer/MainContainer';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
-	return <>
-	<GlobalStyles />
-	<UseEffectComponent/>
-	</>
-	
-	
-	;
-
+	return (
+		<>
+			<GlobalStyles />
+			<MainContainer />
+		</>
+	);
 };
 
 export default App;

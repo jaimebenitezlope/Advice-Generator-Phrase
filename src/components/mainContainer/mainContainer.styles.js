@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
-const StyledContainer = styled.div``;
+const StyledDiv = styled.div`
+	text-align: center;
+`;
 
-export { StyledContainer };
+export { StyledDiv };

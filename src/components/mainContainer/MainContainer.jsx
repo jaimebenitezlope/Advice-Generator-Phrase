@@ -1,9 +1,14 @@
-import { Container } from './mainContainer.styles';
+import Button from '../button/Button';
+import Container from '../container/Container';
+import { StyledDiv } from './mainContainer.styles';
 
-const MainContainer = ({ children }) => {
+const MainContainer = () => {
 	return (
 		<>
-			<Container />
+			<StyledDiv>
+				<Container />
+				<Button />
+			</StyledDiv>
 		</>
 	);
 };
